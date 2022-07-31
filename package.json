@@ -1,12 +1,21 @@
 {
   "name": "hardhat-nft-marketplace",
   "version": "1.0.0",
-  "description": "A NFT Marketplace smart contract",
+  "description": "An NFT Marketplace smart contract",
+  "scripts": {
+    "deploy": "hardhat deploy",
+    "deploy:localhost": "hardhat deploy --network localhost",
+    "test": "hardhat test",
+    "test:localhost": "hardhat test --network localhost",
+    "coverage": "hardhat coverage",
+    "start:node": "hardhat node",
+    "script:mintAndList": "hardhat run scripts/mint-and-list.js --network localhost"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
     "@nomicfoundation/hardhat-toolbox": "^1.0.1",
-    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
     "@nomiclabs/hardhat-etherscan": "^3.0.0",
     "@openzeppelin/contracts": "^4.7.2",
     "@typechain/ethers-v5": "^10.1.0",
@@ -15,6 +24,7 @@
     "@types/mocha": "^9.1.0",
     "chai": "^4.2.0",
     "dotenv": "^16.0.1",
+    "ethers": "^5.6.9",
     "hardhat": "^2.10.1",
     "hardhat-deploy": "^0.11.12",
     "hardhat-gas-reporter": "^1.0.8",
@@ -26,5 +36,6 @@
   "author": {
     "name": "Shivam Kumar",
     "email": "shivamkmr.50397@gmail.com"
-  }
+  },
+  "license": "MIT"
 }
