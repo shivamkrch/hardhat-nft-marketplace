@@ -9,7 +9,7 @@
     "test:localhost": "hardhat test --network localhost",
     "coverage": "hardhat coverage",
     "start:node": "hardhat node",
-    "script:mintAndList": "hardhat run scripts/mint-and-list.js --network localhost"
+    "script:mintAndList:localhost": "hardhat run scripts/mint-and-list.js --network localhost"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
