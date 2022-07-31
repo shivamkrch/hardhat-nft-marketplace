@@ -1,0 +1,16 @@
+{
+  "name": "hardhat-nft-marketplace",
+  "version": "1.0.0",
+  "description": "A NFT Marketplace smart contract",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+    "@openzeppelin/contracts": "^4.7.2",
+    "dotenv": "^16.0.1",
+    "hardhat": "^2.10.1",
+    "hardhat-deploy": "^0.11.12"
+  },
+  "author": {
+    "name": "Shivam Kumar",
+    "email": "shivamkmr.50397@gmail.com"
+  }
+}
