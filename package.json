@@ -11,7 +11,9 @@
     "start:node": "hardhat node",
     "script:mintAndList:localhost": "hardhat run scripts/mint-and-list.js --network localhost",
     "script:cancelItem:localhost": "hardhat run scripts/cancel-item.js --network localhost",
-    "script:buyItem:localhost": "hardhat run scripts/buy-item.js --network localhost"
+    "script:buyItem:localhost": "hardhat run scripts/buy-item.js --network localhost",
+    "script:mine:localhost": "hardhat run scripts/mine.js --network localhost",
+    "script:mint:localhost": "hardhat run scripts/mint.js --network localhost"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
